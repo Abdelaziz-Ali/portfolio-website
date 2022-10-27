@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    align-items: stretch;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  flex: 1;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex: 10;
+  align-items: flex-start;
+}
