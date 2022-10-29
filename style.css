@@ -10,15 +10,28 @@ header {
   justify-content: space-between;
   height: 74px;
 }
-
+.menu {
+  height: fit-content;
+  padding: 0px;
+  margin-top: 19;
+  margin-right: 16px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
 section {
+  display: flex;
+  flex-direction: column;
   margin-left: 16px;
   margin-right: 16px;
   margin-top: 30px;
   margin-bottom: 16px;
 }
 h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Playfair Display", serif;
   font-size: 50px;
   font-weight: 400;
   line-height: 50px;
@@ -27,14 +40,47 @@ h1 {
   margin-bottom: 0px;
 }
 p {
-  width: 288px;
-  height: 126px;
   margin-top: 20px;
   margin-bottom: 40px;
-  font-family: Times, serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  background-color: #1a2236;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.btn:hover {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border: 1px solid #1a2236;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.btn:active {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border: 2px solid #1a2236;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
