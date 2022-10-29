@@ -2,7 +2,12 @@
 
 # Project Name - portfolio-website
 
-**A portfolio website that runs smoothly on different devices and screen sizes, this is my second Microverse repository on GitHub.**
+**A portfolio website that runs smoothly on different devices and screen sizes(Current design is for mobile only), this is my second Microverse repository on GitHub.**
+
+**Preview**
+
+**![Mobile-View](https://user-images.githubusercontent.com/107482707/198753670-98f2317a-a211-4c52-950c-cca9711c328b.png)**
+
 
 ## Built With
 
