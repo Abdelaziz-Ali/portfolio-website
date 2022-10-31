@@ -1,13 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name - portfolio-website
+# Portfolio-Website
 
 **A portfolio website that runs smoothly on different devices and screen sizes(Current design is for mobile only), this is my second Microverse repository on GitHub.**
 
 **Preview**
 
-**![Mobile-View](https://user-images.githubusercontent.com/107482707/198753670-98f2317a-a211-4c52-950c-cca9711c328b.png)**
-
+**![Mobile-View](https://user-images.githubusercontent.com/107482707/199116609-eee769fe-0c2d-4f25-93a8-ea3a52edf4d0.png)**
 
 ## Built With
 
@@ -24,18 +23,25 @@ Flexbox to place elements in the page,
 Build a personal portfolio site,
 Use images and backgrounds to enhance the look of the website.**
 
-### Prerequisites
-Non
+### Setup
+- Open the repository [file](https://github.com/Abdelaziz-Ali/portfolio-website.git).
+- Click on the "Code" button, above the files list.
+- Select one of the three options to copy the URL: HTTPS, SSH key and GitHub CLI.
+- Open the Terminal in the directory you want to copy the project.
+- Type git clone, pastes the URL you copied, and press enter.
+
 ### Usage
-Practice
+to edit this project:
+- Open the repository you cloned with a code editor that you like.
+- Edit the code as you want.
 
 ## Authors
 
 👤 **Abdelaziz Mohamed**
 
-- GitHub: [@githubhandle](https://github.com/Abdelaziz-Ali)
-- Twitter: [@twitterhandle](https://twitter.com/AbdelazizDV)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdelaziz-ali-dev)
+- GitHub: [@Abdelaziz-Ali](https://github.com/Abdelaziz-Ali)
+- Twitter: [@AbdelazizDV](https://twitter.com/AbdelazizDV)
+- LinkedIn: [in/abdelaziz-ali-dev](https://www.linkedin.com/in/abdelaziz-ali-dev)
 
 ## 🤝 Contributing
 
