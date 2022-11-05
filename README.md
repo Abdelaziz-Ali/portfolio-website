@@ -12,7 +12,7 @@
 
 - Major languages
 -HTML (semantic)
--CSS (flexbox)
+-CSS (Grid and Flexbox)
 
 ## Getting Started
 
