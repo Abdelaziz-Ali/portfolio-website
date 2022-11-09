@@ -478,7 +478,7 @@ label {
   text-align: start;
   position: absolute;
   text-indent: 16px;
-  margin: 4px 217px 0px 0px;
+  margin: 4px 217px 0 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -490,9 +490,7 @@ label {
 #message {
   border-radius: 4px;
   border: 1px solid #dfdfe0;
-  font-size: 16px;
   position: relative;
-  height: 112px;
   width: 100%;
   margin-bottom: 20px;
   text-indent: 16px;
