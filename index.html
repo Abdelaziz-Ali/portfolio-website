@@ -32,11 +32,11 @@
     </header>
     <section class="firstSection">
       <div class="midSection">
-        <h1 class="midHeader">Abdelaziz Mohamed</h1>
+        <h1 class="midHeader">Abdelaziz<br> Mohamed</h1>
         <p class="pMidSection">
-          Hello! I am a software developer! I can help you build a product,
-          feature or website. Taka a look of my works. If you like what you see
-          and have a project you need coded, don’t hesitate and contact me.
+          Hello! I am a software developer! I can help you build a product,<br>
+          feature or website. Taka a look of my works.<br> If you like what you see
+          and have a project you need coded,<br> don’t hesitate and contact me.
         </p>
         <button class="btn startCoText">Start Collaboration</button>
         <div class="foterMid"></div>
@@ -169,9 +169,9 @@
         <div id="aboutP1">
           <h1 class="aboutHeader">About</h1>
           <p class="pabout">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut<br> enim
+            ad minim veniam, quis nostrud exercitation ullamco<br> laboris nisi ut
             aliquip ea eiusmod
           </p>
           <button class="btn myCv">
@@ -216,7 +216,7 @@
       </div>
     </section>
     <footer class="contactMe">
-      <header id="mainHeader"><div class="headerv"></div></header>
+      <header id="footerHeader"><div class="footerHeader"></div></header>
       <section id="formSection">
         <h2>Get started</h2>
         <p>
@@ -226,37 +226,44 @@
         <form action="https://formspree.io/f/xbjbqokr" method="POST">
           <ul>
             <li>
-              <div class="inputDiv">
-                <label for="name">Your name</label>
-                <input
-                  type="text"
-                  name="name"
-                  maxlength="30"
-                  required="true"
-                  placeholder="Type your name here..."
-                />
-              </div>
+              <ul id="contactInGrid">
+                <li>
+                  <div class="inputDiv">
+                    <label for="name">Your name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      maxlength="30"
+                      required="true"
+                      placeholder="Type your name here..."
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div class="inputDiv">
+                    <label for="name">Your email</label>
+                    <input
+                      type="email"
+                      name="email"
+                      required="true"
+                      placeholder="Type your email here..."
+                    />
+                  </div>
+                </li>
+              </ul>
             </li>
             <li>
-              <div class="inputDiv">
-                <label for="name">Your email</label>
-                <input
-                  type="email"
-                  name="email"
+              <div id="hideBorder" class="inputDiv">
+                <label id="hide" for="name">Message</label>
+                <textarea
+                  name="message"
                   required="true"
-                  placeholder="Type your email here..."
-                />
+                  id="message"
+                  maxlength="500"
+                  placeholder="Enter your message here..."
+                  rows="5"
+                ></textarea>
               </div>
-            </li>
-            <li>
-              <textarea
-                name="message"
-                required="true"
-                id="message"
-                maxlength="500"
-                placeholder="Enter your message here..."
-                rows="5"
-              ></textarea>
             </li>
             <li>
               <button type="submit" class="btn startCoText">
@@ -266,6 +273,7 @@
           </ul>
         </form>
       </section>
+      <div class="footerV"></div>
       <footer id="contactFooter">
         <div id="footerContainer">
           <button class="myResume">
