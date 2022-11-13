@@ -605,6 +605,7 @@ label {
     align-content: stretch;
     width: 1440px;
   }
+
   .headerv,
   .menu {
     display: none;
@@ -639,10 +640,13 @@ label {
     background-color: inherit;
   }
 
+  #item2 .projInfo button {
+    margin: 0;
+  }
+
   #mainHeader ul button:hover {
     border-bottom: #1a2236;
     border-style: solid;
-    border-bottom-width: 10px;
     border: 1px;
   }
 
@@ -719,10 +723,6 @@ label {
     margin-top: 17px;
   }
 
-  /*                 
-                   works section
-
-*/
   .works {
     width: 100%;
   }
@@ -775,12 +775,10 @@ label {
     left: 0;
     top: 140;
     margin: 0;
-    /* browser support */
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   }
 
   #item2 {
@@ -841,10 +839,6 @@ label {
 
   #item2 .projInfo .lang1 {
     margin-left: 0;
-  }
-
-  #item2 .projInfo button {
-    margin: 0;
   }
 
   #item3 {
@@ -945,11 +939,6 @@ label {
     order: 2;
   }
 
-  /*                 
-                   about section
-
-*/
-
   .aboutMyself {
     display: flex;
     width: 100%;
@@ -1020,12 +1009,6 @@ label {
     background-size: contain;
   }
 
-  /*
-
-                        contact section
-
-*/
-
   .contactMe {
     display: flex;
     flex-direction: column;
@@ -1050,11 +1033,11 @@ label {
   }
 
   #formSection {
-    margin: 135px 446px 0px 446px;
+    margin: 135px 446px 0 446px;
   }
 
   #formSection h2 {
-    margin: 0 0px 40px 0;
+    margin: 0 0 40px 0;
   }
 
   #formSection p {
@@ -1143,8 +1126,7 @@ label {
   input:hover {
     border: 1px solid #1a2236;
   }
-  /*           footer      */
-
+  
   #contactFooter {
     padding: 48px 160px 48px 160px;
   }
